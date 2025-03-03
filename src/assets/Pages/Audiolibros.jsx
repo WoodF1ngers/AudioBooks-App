@@ -36,7 +36,7 @@ const Audiolibros = () => {
           Siempre estarán listos para acompañarte en cada momento.
         </p>
         <div className='audiobookGalleryTitle'>
-          <img src="/src/assets/OIG3 (3).jpeg" alt="" />
+          <img src="./OIG3 (3).jpeg" alt="" />
         </div>
         <div className="audiobook-list">
           {audiobooks.slice(0, visibleCount).map((audiobook) => (

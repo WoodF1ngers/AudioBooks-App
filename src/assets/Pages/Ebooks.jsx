@@ -60,7 +60,7 @@ const Ebooks = () => {
           Desde los clásicos atemporales hasta títulos más actuales, hay algo para cada lector en nuestra colección.
         </p>
         <div className='ebooksGalleryTitle'>
-          <img src="/src/assets/OIBooks2.jpeg" alt="Ebooks Gallery" />
+          <img src="./OIBooks2.jpeg" alt="Ebooks Gallery" />
         </div>
         <div className="ebooks-list">
           {ebooks.slice(0, visibleCount).map((ebook) => (

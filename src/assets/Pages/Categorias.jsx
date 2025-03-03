@@ -16,7 +16,7 @@ const Categorias = () => {
         <p>Fantasía, drama, ficción... No estas seguro de cual título escoger?<br/>Busca entre las diferentes categorías
         seguro podrás encontrar el adecuado para el momento adecuado.</p>
         <div className='categoryTitle'>
-          <img src="/src/assets/OIG2-5.jpeg" alt="CategoryImage" />
+          <img src="./OIG2-5.jpeg" alt="CategoryImage" />
         </div>
         <CategoryCard categoryId="Ficción" categoryName="Ficción" />
         <CategoryCard categoryId="Drama" categoryName="Drama" />

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import './Styles/InfiniteSrollSlider.css'; // Estilos CSS para el slider
+import './Styles/InfiniteSrollSlider.css';
 
 const Slider = ({ data }) => {
   const [dragging, setDragging] = useState(false);
@@ -35,7 +35,7 @@ const Slider = ({ data }) => {
       <div className="slider">
         {data.map((item, index) => (
           <div className="slide" key={index}>
-            {/* Aquí puedes mostrar los datos de cada slide */}
+            {/* mostrar los datos de cada slide */}
             {}
           </div>
         ))}

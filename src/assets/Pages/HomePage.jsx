@@ -83,7 +83,7 @@ function Homepage() {
             </div>
             <h3>Escuchar es más rápido que leer, se ahorran hasta dos horas al día, según un estudio de Nielsen</h3>
           </div>
-          <div className='stadisticImg'><img src="src\assets\OIG2.zNWx3tbP.jpeg" alt="" /></div>
+          <div className='stadisticImg'><img src=".\OIG2.zNWx3tbP.jpeg" alt="" /></div>
         </article>
       </section>
       <RecentAudiobooks />

@@ -2,9 +2,6 @@ import React from 'react'
 import '../Styles/HomePage/TestWelcomeCard.css'
 import HorizontalScroll from './HorizontalScroll'
 import CustomAudioPlayer from '../Audioplayer/CustomAudioPlayer'
-// import '../../../public/Audios/The_Weeknd_-_Starboy_(feat_Daft_Punk).mp3'
-
-
 
 const TestWelcomeCard = () => {
   return (
@@ -14,9 +11,9 @@ const TestWelcomeCard = () => {
           <div className='bookCoverInfo'>
             <div className='img-container'>
               <div className='PlayerMinimal-container'>
-                <img src="src\assets\BookCovers\laMetamorfosis.jpg" alt="" />
+                <img src=".\BookCovers\laMetamorfosis.jpg" alt="" />
                 <div className='PlayerMinimal'>
-                  <CustomAudioPlayer audioUrl={'../../../public/Audios/La Metamorfosis - Extracto1.mp3'} />
+                  <CustomAudioPlayer audioUrl={'./Audios/La Metamorfosis - Extracto1.mp3'} />
                 </div>
               </div>
             </div>
