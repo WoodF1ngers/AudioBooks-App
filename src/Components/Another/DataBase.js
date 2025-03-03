@@ -8,7 +8,7 @@ export const audiobooks = [
     description: "Una obra maestra del escritor checo Franz Kafka.",
     prologue: "La Metamorfosis es una novela corta escrita por el autor checo Franz Kafka. La historia comienza de manera abrupta con el protagonista, Gregor Samsa, despertándose una mañana para descubrir que se ha transformado en un enorme insecto, a menudo descrito como una cucaracha gigante. Este evento inexplicable es el punto de partida para una exploración profunda de temas como la alienación, la identidad, y la condición humana. Gregor Samsa, antes de su transformación, es un comerciante viajero que trabaja arduamente para mantener a su familia.Su transformación impacta drásticamente la dinámica familiar.Incapaz de comunicarse con los demás y convertido en una carga, Gregor se ve confinado a su habitación, enfrentándose al rechazo y a la incomprensión de su familia.Su hermana, Grete, al principio intenta cuidar de él, pero con el tiempo, también se aleja, y la familia busca deshacerse de él.",
     coverUrl: "../Covers1x1-1000px/laMetamorfosis-1x1.jpg",
-    audioUrl: ".../audio/books/La metamorfosis - Capítulo 1.mp3",
+    audioUrl: "public\audio\books\La Metamorfosis - Capítulo 1.mp3",
     pdfUrl: "../Ebooks/La Metamorfosis - Franz Kfka.pdf",
     media: ["IoHeadset", "FaGlasses"],
     //   { name: "IoHeadset", key: "1" },
