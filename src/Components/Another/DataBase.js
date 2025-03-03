@@ -66,7 +66,7 @@ export const audiobooks = [
     year: 1868,
     description: "Ana Karénina es una novela publicada por primera vez en forma de libro en 1878. Considerada una de las obras literarias más grandes jamás escritas",
     prologue: "En una sociedad rusa dominada por la nobleza y las rígidas convenciones sociales del siglo XIX, Ana Karenina de León Tolstói emerge como una poderosa exploración del amor, la infidelidad y las consecuencias de las pasiones humanas.",
-    coverUrl: "./Covers1x1-1000px/Dracula-1x1.jpg",
+    coverUrl: "./Covers1x1-1000px/dracula-1x1.jpg",
     audioUrl: "./audio/books/El Principito - 1.mp3",
     pdfUrl: "",
     media: [],
