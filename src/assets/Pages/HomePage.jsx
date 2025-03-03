@@ -31,7 +31,7 @@ function Homepage() {
       <section className='anyContent-container'>
         <div className='anyDeviceAdd'>
           <div className='imgDevice-container'>
-            <img src="src\assets\Images\app\OIG4 (2).jpeg" alt="" />
+            <img src=".\Images\app\OIG4 (2).jpeg" alt="" />
           </div>
           <div className='text-container'>
             <article className='textLeyend'>
