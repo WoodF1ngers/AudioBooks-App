@@ -1,0 +1,84 @@
+/** {
+  border: 1px solid #e7a820;
+  box-sizing: border-box;
+}*/
+
+.horizontalScroll-Container {
+  display: grid;
+  position: relative;
+  grid-auto-flow: column;
+  /*grid-auto-columns: max-content;*/
+  grid-template-rows: repeat(2, 1fr);
+  width: 50%;
+  margin: auto;
+  height: 40px;
+  margin-top: 25px;
+  align-content: center;
+  color: aliceblue;
+}
+
+.horizontalScroll-Container dl::before,
+.horizontalScroll-Container dl::after {
+  /*content: '';
+  position: absolute;
+  width: 1px; /* Ancho de las líneas laterales */
+  height: 30px; /* Altura parcial de las líneas laterales */
+  background-color: rgba(220, 213, 205, 0.411); /* Color de las líneas laterales */
+  top: 50%; /* Centra las líneas laterales verticalmente */
+  transform: translateY(-50%); /* Ajusta la posición para centrar exactamente */
+}
+
+.horizontalScroll-Container dl::before {
+  left: 0; /* Posición de la línea izquierda */
+}
+
+.horizontalScroll-Container dl::after {
+  right: 0; /* Posición de la línea derecha */
+}
+
+.horizontalScroll-Container dl::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontalScroll-Container dl {
+  display: grid;
+  position: relative;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  margin: auto;
+  height: 40px;
+  margin-top: 5px;
+  align-content: center;
+  overflow-x: auto;
+}
+
+.horizontalScroll-Container dt {
+  overflow-x: auto;
+  justify-self: left;
+  font-size: 15px;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+.horizontalScroll-Container dd {
+  font-size: 15px;
+  margin-left: 0px;
+  padding-right: 20px;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+
+@media (max-width: 991px) {
+  .horizontalScroll-Container {
+    display: none;
+  }
+  .horizontalScroll-Container dl {
+    overflow-x: auto;
+    overflow-y:hidden;
+    border-block: 1px solid rgba(220, 213, 205, 0.411);
+    height: 40px;
+    margin: auto;
+  }
+}

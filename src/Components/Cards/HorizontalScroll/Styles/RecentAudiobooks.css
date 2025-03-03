@@ -1,0 +1,85 @@
+.recent-audiobooks {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  h1, h3, p, a {
+    text-decoration: none;
+  }
+
+  .recent-audiobooks h2 {
+    font-size: 1.7rem;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+  }
+  
+  .recent-audiobooks hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .recent-audiobooks-list {
+    display: flex;
+    position: relative;
+    width: 70%;
+    overflow-x: auto;
+    padding: 10px 10px;
+    margin: auto;
+  }
+
+  .recent-audiobooks-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .audiobook-card2 {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 274px;
+    margin-right: 15px;
+    background-color: #f7fbff;
+    border: 1px dotted #04020e41;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .audiobook-card2:hover {
+    transform: scale(1.05);
+    border: 1px solid #2d1b5a60;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+  }
+  
+  .audiobook-card2 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .audiobook-card2 h3 {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0 5px;
+    
+  }
+  
+  .audiobook-card2 p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .audiobook-card2 span {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    color: #5c5c5c;
+  }
+
+  @media (max-width: 768px) {
+    .recent-audiobooks-list {
+      width: 90vw;
+    }
+ 
+  }  

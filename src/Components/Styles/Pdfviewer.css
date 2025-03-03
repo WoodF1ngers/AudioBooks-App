@@ -1,0 +1,10 @@
+/* src/Components/Styles/Ebooks.css */
+
+.custom-zoom-button {
+    color: white !important;
+}
+
+.custom-zoom-button:hover {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.1); /* Un ligero cambio de fondo al hacer hover */
+}

@@ -1,0 +1,136 @@
+/** {
+  border: solid 1px #5adfcd;
+}*/
+.AudioPlayer-Conteiner {
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 15;
+}
+
+/*contenedor de toda la interfaz*/
+.rhap_container {
+  display: flex;
+  position: relative;
+  border-radius: 10px/10px;
+  background: #43318d13;
+  backdrop-filter: blur(12px);
+  width: 450px;
+  box-sizing: border-box;
+  border: 1px solid #6b6b6b11;
+  /* Establece el borde inicialmente transparente */
+  box-shadow: 0 0 10px #43551305;
+  /* Establece una sombra inicialmente transparente */
+  transition: box-shadow 1.2s ease, border-color 1.2s ease;
+  /* Agrega transiciones a la sombra y al color del borde */
+}
+
+.rhap_container:hover {
+  border-color: #ff662f3b;
+  /* Cambia el color del borde a transparente al pasar el cursor sobre el elemento */
+  box-shadow: 1px 2px 8px #43318d59;
+  
+}
+
+/*Indicador (cantidad) de duración de pista*/
+.rhap_time {
+  color: #5c5c5c;
+  font-size: 14px;
+}
+
+.rhap_controls-section {
+  margin-bottom: 8px;
+}
+
+/*Indicador y manejador del progreso de reproducción de pista*/
+
+
+.rhap_main-controls-button {
+  width: 80px !important;
+  height: 75px !important;
+}
+
+.rhap_main-controls-button svg {
+  
+  color: #44318d;
+  width: 90%;
+  height: 90%;
+}
+
+.rhap_progress-filled,
+.rhap_progress-indicator {
+  position: absolute;
+  background-color: #ff652f !important;
+}
+
+.rhap_button-clear.rhap_volume-button {
+  color: auto !important;
+}
+
+.rhap_volume-bar,
+.rhap_volume-indicator {
+  background-color: #ff652f;
+}
+
+.speedHandle {
+  display: flex;
+  position: relative;
+  border-radius: 8px;
+  background: #43318dc0;
+  width: 150px;
+  height: 20px;
+  margin:auto;
+  top: 2px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*Contenedor del icono de modificador de velocidad*/
+.speedIcon {
+  position: relative;
+  width: 0%;
+  top: 135px;
+  right: -46%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.speedHandle button {
+  background: none;
+  border-style: none;
+  cursor: pointer;
+  z-index: 11;
+  font-size: 1rem;
+}
+
+.speedHandle button:hover {
+  color: #faed26;
+  border: #302f1b;
+}
+
+@media (max-width: 600px) {
+  .rhap_container {
+    display: flex;
+    margin: auto;
+    position: relative;
+    background: #43318d13;
+    backdrop-filter: blur(10px);
+    width: 300px;
+  }
+
+  .rhap_time {
+    color: #44318d;
+    font-size: 14px;
+  }
+
+  .rhap_volume-indicator {
+
+    background-color: #e23c00;
+    transform: rotateX('angle')
+  }
+
+  .rhap_main-controls-button svg {
+    color: #44318d;
+  }
+
+}

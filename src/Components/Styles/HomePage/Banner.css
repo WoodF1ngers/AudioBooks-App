@@ -1,0 +1,92 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    height: 416px;
+    margin: auto;
+    background: radial-gradient(circle, #030711, rgb(15, 3, 31));
+    
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.788), #03071100 20%, #03071100 80%, rgba(0, 0, 0, 0.788));
+    z-index: 1;
+    
+    pointer-events: none;
+}
+
+.slider .slide-track {
+    display: flex;
+    position: relative;
+    align-items: center;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 21);
+    /*border: solid 1px #c01919;
+    box-sizing: border-box;*/
+}
+
+.slider .slide {
+    width: 200px;
+    
+}
+
+.slider .slide img {
+    width: 100%;
+    backdrop-filter: blur(80px);
+    border-radius: 20%;
+    /* Agrega el efecto de desenfoque */
+}
+
+.slider .slide-track2 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    animation: scrollReverse 40s linear infinite;
+    -webkit-animation: scrollReverse 40s linear infinite;
+    width: calc(200px * 21);
+    /*border: solid 1px #5cc019;
+    box-sizing: border-box;*/
+}
+
+.slider .slide2 {
+    width: 200px;
+}
+
+.slider .slide2 img {
+    width: 100%;
+    backdrop-filter: blur(80px);
+    border-radius: 20%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
+
+@keyframes scrollReverse {
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    0% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}

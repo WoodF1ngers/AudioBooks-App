@@ -1,0 +1,224 @@
+/** {
+    border: solid 0.5px #e0732a;
+    box-sizing: border-box;
+}*/
+
+.testCard-conteiner {
+    background-color:#0b0c10; 
+}
+
+.testCard {
+    display: flex;
+    position: relative;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.048);
+    width: 90%;
+    height: 500px;
+    justify-content: space-between;
+    /*border: solid 0.5px #acff26;
+    box-sizing: border-box;*/
+}
+
+.bookCoverInfo {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 50%;
+
+    /*box-sizing: border-box;
+    border: solid 0.5px #2a88e0;*/
+}
+
+.img-container {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.PlayerMinimal-container {
+    display: flex;
+    position: relative;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    /* Fondo semitransparente */
+
+}
+
+.PlayerMinimal-container img {
+
+    box-sizing: border-box;
+    height: 100%;
+    /*border: solid 0.5px #ff1cf4;*/
+}
+
+.PlayerMinimal {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+
+}
+
+.PlayerMinimal:hover::after {
+    content: "Escucha un fragmento";
+    position: absolute;
+    width: 180px;
+    top: 100%;
+    left: 50%;
+    transform: translateY(30%);
+    background-color: #33333300;
+    color: #f3f3f3;
+    padding: 4px 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    opacity: 0.9;
+
+}
+
+.textInfo {
+    display: none;
+    flex-direction: row;
+    width: 50%;
+    position: absolute;
+}
+
+.bookCoverInfo h2 {
+
+    box-sizing: border-box;
+    /*border: solid 0.5px #ffffff;*/
+}
+
+.bookCoverInfo p {
+
+    box-sizing: border-box;
+    /*border: solid 0.5px #0d5bec;*/
+}
+
+
+.bookPrologue-container {
+    position: relative;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    box-sizing: border-box;
+    align-content: flex-start;
+    overflow: hidden;
+}
+
+.bookPrologue-container h3 {
+    width: 80%;
+    height: 82%;
+    font-size: 17px;
+    font-weight: 400;
+    margin: auto;
+    padding-top: 50px;
+    overflow: hidden;
+    /* Asegura que el contenido no desborde */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* Necesario para el soporte de WebKit */
+    -webkit-box-orient: vertical;
+    /* Configura la orientación en vertical */
+    -webkit-line-clamp: 3;
+    /* Número de líneas antes del truncamiento */
+    line-clamp: 3;
+    /* Número de líneas antes del truncamiento */
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.horizontalScroll {
+    padding-top: 100px;
+    margin: auto;
+    width: 0;
+}
+
+@media (max-width: 768px) {
+
+    .testCard {
+        display: flex;
+        width: 80%;
+        background: none;
+        margin: auto;
+        border-radius: 20%/15%;
+        margin: auto;
+        background-size: cover;
+        background-image: url(/src/assets/istockphoto-503050716-612x612.jpg);
+        /*mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 70%, rgba(0, 0, 0, 0.158) 85%, rgba(0, 0, 0, 0) 95%);*/
+        /*mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));*/
+    }
+
+    .bookCoverInfo {
+        display: flex;
+        position: relative;
+        border-radius: 20%/15%;
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+        overflow: visible;
+        align-items: center;
+        background-color: rgba(243, 243, 243, 0.637);
+    }
+
+    .img-container {
+        position: relative;
+        height: 100%;
+        width: 80%;
+        align-items: center;
+        align-items: flex-start;
+        overflow: visible;
+
+    }
+
+    .PlayerMinimal-container {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        justify-content: center;
+        top: 0;
+        z-index: 8;
+    }
+
+    .PlayerMinimal-container img {
+        position: absolute;
+        border-radius: 25px;
+        top: 8px;
+        height: 97%;
+        width: 95%;
+
+
+        /*border: solid 0.5px #ff1cf4;*/
+    }
+
+    .PlayerMinimal {
+        position: absolute;
+
+
+
+    }
+
+    .PlayerMinimal:hover::after {
+        content: "Escucha un fragmento";
+        position: absolute;
+        width: 180px;
+        top: 100%;
+        left: 50%;
+        transform: translateY(30%);
+        background-color: #33333300;
+        color: #f3f3f3;
+        padding: 4px 0px;
+        border-radius: 4px;
+        font-size: 16px;
+        opacity: 0.9;
+
+    }
+
+    .bookPrologue-container {
+        display: none;
+    }
+}

@@ -1,0 +1,20 @@
+.custom-audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-pause-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #ff652f;
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+  
+  .play-pause-button:focus {
+    outline: none;
+  }
+  

@@ -1,0 +1,124 @@
+.category-conteiner {
+  display: block;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+.categoryTitle {
+  position: relative;
+  height: 900px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.categoryTitle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(16, 16, 16, 0) 30%, #0b0c10 80%);
+  z-index: 1;
+  /* Coloca el gradiente sobre la imagen */
+}
+
+.categoryTitle img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* Asegúrate de que la imagen se ajuste al contenedor */
+  position: relative;
+  z-index: 0;
+  /* Coloca la imagen debajo del gradiente */
+}
+
+.category-conteiner h1 {
+  position: absolute;
+  top: 500px;
+  left: 24%;
+  transform: translateX(-50%);
+  font-size: 5rem;
+  color: #ffe400;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  z-index: 2;
+  /* Coloca el texto sobre el gradiente */
+}
+
+.category-conteiner p {
+  position: absolute;
+  top: 650px;
+  left: 24%;
+  transform: translateX(-19%);
+  font-size: 1.7rem;
+  color: aliceblue;
+  z-index: 2;
+  text-align: justify;
+  line-height: 2.5rem;
+  letter-spacing: -0.02px;
+}
+
+@media (max-width: 768px) {
+  .categoryTitle {
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    /* border: 1px solid #ff501c; */
+  }
+
+  .categoryTitle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(16, 16, 16, 0) 30%, #0b0c10 80%);
+    z-index: 1;
+    /* Coloca el gradiente sobre la imagen */
+  }
+
+  .categoryTitle img {
+    height: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  .category-conteiner h1 {
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.8rem;
+    color: #ffe400;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    z-index: 2;
+    /* Coloca el texto sobre el gradiente */
+  }
+
+  .category-conteiner p {
+    position: absolute;
+    width: 75%;
+    top: 475px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: aliceblue;
+    z-index: 2;
+    text-align: left;
+    line-height: 1.6rem;
+    letter-spacing: -0.02px
+  }
+
+}
