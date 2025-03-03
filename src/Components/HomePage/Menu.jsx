@@ -15,7 +15,7 @@ const Menu = () => {
     <>
       <nav className="navbar">
         <div className="logo">
-          <a href="/"><img src="../../../public/Shelf - Logo3.png" alt="" /></a>
+          <a href="/"><img src="./Shelf - Logo3.png" alt="shelf logo" /></a>
         </div>
         <div className='search-bar1'>
           <SearchBar />
