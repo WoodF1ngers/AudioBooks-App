@@ -17,8 +17,10 @@ En un mundo donde la tecnología domina el entretenimiento, el hábito de la lec
 - 🛠 **Open Source**: ¡Contribuciones bienvenidas!  
 
 ## 🛠 Tecnologías Usadas  
-- **Frontend**: React.js + Vite  
-- **Audio**: Web Audio API  
+- **Frontend**: React.js + Vite
+- **Backend**: Vercel (SPA)
+- **Audio**: Web Audio API
+- **Cont. Multimedia**: Audacity - Dall•e 3
 - **Libros**: [Project Gutenberg](https://www.gutenberg.org/) y [LibriVox](https://librivox.org/)  
 
 ## 🚀 Cómo Contribuir  
