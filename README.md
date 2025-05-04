@@ -27,7 +27,7 @@ En un mundo donde la tecnología domina el entretenimiento, el hábito de la lec
 3. **Traduce**: ¿Sabes otro idioma? Ayuda con traducciones.  
 
 ## 📸 Capturas  
-![Interfaz de Shelf](https://drive.google.com/file/d/1COMEfh0Fegwmoon1mAgSX3r93JPzgglf/view?usp=sharing)  
+![Interfaz de Shelf]![Image](https://github.com/user-attachments/assets/7613e2fa-942b-4fcf-8cd4-309d736e7f98)
 
 ## 🌟 Futuras Mejoras  
 - [ ] Recomendaciones personalizadas.  
