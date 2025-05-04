@@ -43,4 +43,4 @@ MIT License - Libre uso y modificación.
 ---
 
 ### 🔍 Sobre Mí  
-*"Soy [Tu Nombre], desarrollador web autodidacta. Creé Shelf porque, como lector apasionado, noté que muchos evitan la lectura por 'falta de tiempo'. ¡Espero que disfrutes saludos!"*  
+*"Hola! soy Bryan, desarrollador autodidacta. Creé Shelf porque, como lector apasionado, noté que muchos evitan la lectura por 'falta de tiempo'. ¡Espero que disfrutes saludos!"*  
