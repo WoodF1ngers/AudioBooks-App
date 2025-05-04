@@ -1,8 +1,8 @@
 # 📖 Shelf 
 *Escucha los clásicos, revive las historias*  
 
-**Repositorio:** [github.com/tuusuario/classiclisten]([https://github.com/tuusuario/classiclisten](https://github.com/WoodF1ngers/AudioBooks-App)  
-**Demo en vivo:** [classiclisten.vercel.app]([https://classiclisten.vercel.app](https://audio-books-app.vercel.app/)  
+**Repositorio:** [https://github.com/WoodF1ngers/AudioBooks-App]
+**Demo en vivo:** [https://audio-books-app.vercel.app/]
 
 ## 🎯 Propósito  
 En un mundo donde la tecnología domina el entretenimiento, el hábito de la lectura está decayendo. **Shelf** nace de mi pasión por la literatura clásica y el deseo de hacerla accesible en un formato moderno: **audiolibros gratuitos** de obras como *Moby Dick*, *El Principito* y *Orgullo y Prejuicio*.  
